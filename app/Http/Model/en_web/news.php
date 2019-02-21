@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class news extends Model
 {
-    protected $connection='mysql';
+    protected $connection='en_web';
 
     protected $table='news';
 

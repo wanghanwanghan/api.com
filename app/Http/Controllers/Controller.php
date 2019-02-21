@@ -103,9 +103,9 @@ class Controller extends BaseController
         }
 
         //新建表
-        if(!Schema::connection('mysql')->hasTable('news'))
+        if(!Schema::connection('en_web')->hasTable('news'))
         {
-            Schema::connection('mysql')->create('news',function (Blueprint $table)
+            Schema::connection('en_web')->create('news',function (Blueprint $table)
             {
                 $table->increments('id')->unsigned()->comment('自增');
                 $table->string('uuid');

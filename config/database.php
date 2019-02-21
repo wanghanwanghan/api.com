@@ -39,13 +39,13 @@ return [
             'prefix' => '',
         ],
 
-        'mysql' => [
+        'en_web' => [
             'driver' => 'mysql',
-            'host' => 'localhost',
-            'port' => '3306',
+            'host' => '47.106.169.68',
+            'port' => '63306',
             'database' => 'en_web',
             'username' => 'root',
-            'password' => 'root',
+            'password' => 'zbxlbj@2018*()',
             'unix_socket' => '',
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
