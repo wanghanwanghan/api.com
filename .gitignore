@@ -1,0 +1,7 @@
+/.idea
+/.htaccess
+/public/page-cache
+/node_modules
+/vendor
+
+
